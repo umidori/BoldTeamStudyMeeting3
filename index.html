@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown=""
+				data-separator="^\n---$"
+				data-separator-vertical="^\n>>>$">
+				<script type="text/template">
+### 効果的なプログラム学習法
+株式会社 ボールド 技術部 鳥海秀一
+
+
+---
+### 効果的なプログラム学習法
+- - -
+* 文法は覚えたらすぐにそれを試してみること（抽象から具体へ）
+* 一通り文法を覚えたら、定番の問題を解いてみること（具体から抽象へ）
+
+---
+### 定番の問題とは
+- - -
+* プログラムの教科書にからなず出てくる問題
+* 例
+	* 単語数カウント問題
+	* アナグラム取得問題
+	* nクイーン問題
+	* ナイト巡回問題
+
+---
+### 定番の問題の良い点
+- - -
+* 言語の特徴を活用しやすい難易度を持つ
+* 様々な言語へ適用できる（言語を選ばない）
+* 言語の基礎だけで十分に解くことができる
+
+</script>
+				</section>
+</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
